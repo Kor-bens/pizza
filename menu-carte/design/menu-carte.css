@@ -1,0 +1,99 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    height: 105px;
+    border-bottom: 0.1px solid rgb(149, 143, 143);
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.836);
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+
+  .menu li {
+margin-top: 45px;
+margin-right:150px ; 
+
+}
+
+
+#icone{
+    width: 78px;
+    height: 78px;
+}
+
+
+
+.select-pfc{
+    background-color: #202124;
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+}
+
+.select-pfc li{
+ display:flex;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+.container{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   max-width: none;
+   margin-top: 20px;
+}
+
+#image{
+    max-width: 100%;
+    min-height: 300px;
+
+}
+
+.block-moment{
+    color: #78838c;
+    margin-left: 10px;
+}
+
+.block-moment a{
+    color: #78838c;
+}
+
+
+.block-image{
+    margin-top: 20px;
+
+}
+
+.block-ingredient{
+   margin-left: 80px;
+    width: 300px;
+    margin-top: 60px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#titre-menu{
+    font-size: 2.2857142857rem;
+    line-height: 32px;
+    font-family: National2Condensed-Bold;
+    font-weight: 700;
+    margin-bottom: 1.4285714286rem;
+    letter-spacing: normal;
+}
